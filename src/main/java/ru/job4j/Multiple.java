@@ -12,5 +12,6 @@ public class Multiple {
         System.out.println ("8*1=1");
         System.out.println ("9*1=1");
 
+
     }
 }
