@@ -6,3 +6,4 @@ public class StudentInfo {
         System.out.println("13.02.1997");
     }
 }
+go
