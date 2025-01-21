@@ -14,6 +14,7 @@ public class CounterTest {
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
+
     @Test
     void whenStart5AndFinish7Then18() {
         int start = 10, finish = 1;
