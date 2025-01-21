@@ -6,7 +6,6 @@ public class Counter {
         for (start = start;  start <= finish; start++) {
             sum  = sum + start;
         }
-        
         return sum;
     }
 
