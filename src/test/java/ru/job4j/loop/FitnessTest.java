@@ -14,7 +14,6 @@ class FitnessTest {
         assertThat(result).isEqualTo(expected);
     }
 
-
     @Test
     void whenIvanLessByOneNik() {
         int ivan = 90;
