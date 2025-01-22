@@ -8,10 +8,11 @@ public class Counter {
         }
         return sum;
     }
+
     public static int sumByEven(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
-            if (i % 2 ==0) {
+            if (i % 2 == 0) {
                 sum = sum + i;
             }
         }
