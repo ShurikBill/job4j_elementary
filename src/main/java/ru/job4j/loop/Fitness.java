@@ -15,6 +15,6 @@ public class Fitness {
     }
 
     public static void main(String[] args) {
-        System.out.println(calc (90,100));
+        System.out.println(calc(90, 100));
     }
 }
