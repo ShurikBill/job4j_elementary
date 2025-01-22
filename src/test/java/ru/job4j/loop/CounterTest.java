@@ -21,4 +21,20 @@ public class CounterTest {
         double output = Counter.sum(start, finish);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void whenStart0AndFinish10Then30() {
+        int start = 0, finish = 10;
+        double expected = 30;
+        double output = Counter.sumByEven(start, finish);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void whenStartMinus6AndFinish12Then30() {
+        int start = -6, finish = 14;
+        double expected = 44;
+        double output = Counter.sumByEven(start, finish);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
+    }
 }
