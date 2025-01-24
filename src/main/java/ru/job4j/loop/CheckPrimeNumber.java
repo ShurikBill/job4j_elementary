@@ -6,8 +6,8 @@ public class CheckPrimeNumber {
             return false;
         }
         boolean rsl = true;
-        for (int i = 2; i < number; i++){
-             if (number % i == 0){
+        for (int i = 2; i < number; i++) {
+             if (number % i == 0) {
                  rsl = false;
                  break;
              }
