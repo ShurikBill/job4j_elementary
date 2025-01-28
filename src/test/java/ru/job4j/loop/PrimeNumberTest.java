@@ -40,7 +40,7 @@ class PrimeNumberTest {
     }
 
     @Test
-    void when49Then15() throws InterruptedException {
+    void when49Then15() {
         int finish = 49;
         int result = PrimeNumber.calc(finish);
         int expected = 15;
