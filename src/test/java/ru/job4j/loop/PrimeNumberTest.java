@@ -1,6 +1,9 @@
 package ru.job4j.loop;
 
 import org.junit.jupiter.api.Test;
+
+import java.time.LocalDateTime;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PrimeNumberTest {
@@ -37,7 +40,7 @@ class PrimeNumberTest {
     }
 
     @Test
-    void when49Then15() {
+    void when49Then15() throws InterruptedException {
         int finish = 49;
         int result = PrimeNumber.calc(finish);
         int expected = 15;
