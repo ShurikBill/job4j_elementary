@@ -4,10 +4,10 @@ public class ArrayDefinition {
 
     public static void main(String[]args) {
         String[] names = new String[4];
-        names [0] = "Mintimer Shaimiev";
-        names [1] = "Rudolf Nureyev";
-        names [2] = "Gubaidulina Sofia";
-        names [3] = "Renat Ibragimov";
+        names[0] = "Mintimer Shaimiev";
+        names[1] = "Rudolf Nureyev";
+        names[2] = "Gubaidulina Sofia";
+        names[3] = "Renat Ibragimov";
         short[] ages = new short[10];
         String[] surnames = new String[100500];
         float[] prices = new float[40];
