@@ -3,7 +3,7 @@ package ru.job4j.loop;
 public class NumberPyramid {
     public static void draw(int n) {
         for (int i = 1; i <= n; i++) {
-            for (int s = n ; s >= 0; s--) {
+            for (int s = n; s >= 0; s--) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= n; j++) {
