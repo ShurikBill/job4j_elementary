@@ -12,6 +12,7 @@ class TurnTest {
         assertThat(result).containsExactly(expected);
     }
 
+
     @Test
     void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
         int[] input = {1, 2, 3, 4, 5};
