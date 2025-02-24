@@ -35,4 +35,4 @@ public class RollBackArrayTest {
         int[] result = RollBackArray.rollback(input);
         assertThat(result).containsExactly(expected);
     }
-}=
+}
