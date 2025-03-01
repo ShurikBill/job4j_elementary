@@ -14,7 +14,6 @@ public class MinDiapasonTest {
         assertThat(result).isEqualTo(expected);
     }
 
-
     @Test
     public void whenLastMin() {
         int[] array = new int[] {10, 5, 3, 1};
